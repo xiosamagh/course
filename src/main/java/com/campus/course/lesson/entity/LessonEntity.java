@@ -1,4 +1,4 @@
-package com.campus.course.course.entity;
+package com.campus.course.lesson.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;
@@ -11,13 +11,13 @@ import lombok.experimental.SuperBuilder;
 @SuperBuilder
 @Entity
 @NoArgsConstructor
-@Table(name = "courses")
-public class CourseEntity {
+@Table(name = "lessons")
+public class LessonEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     protected Long id;
-
-    protected String title;
+    protected  String title;
     protected String description;
+    protected Long courseId;
 
 }

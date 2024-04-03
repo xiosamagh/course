@@ -5,7 +5,7 @@ import com.campus.course.student.dto.requests.EditStudentRequest;
 import com.campus.course.student.dto.requests.RegistrationRequest;
 import com.campus.course.student.dto.response.StudentResponse;
 import com.campus.course.student.entity.StudentEntity;
-import com.campus.course.student.exception.BadRequestException;
+import com.campus.course.base.exception.BadRequestException;
 import com.campus.course.student.exception.StudentAlreadyExistException;
 import com.campus.course.student.exception.StudentNotFoundException;
 import com.campus.course.student.repository.StudentRepository;

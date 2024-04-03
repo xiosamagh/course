@@ -4,15 +4,11 @@ import com.campus.course.course.entity.CourseEntity;
 import lombok.Data;
 
 @Data
-public class CreateCourseRequest {
+public class EditCourseRequest {
+    private Long id;
     private String title;
     private String description;
 
-    public CourseEntity entity() {
-        return CourseEntity.builder()
-                .title(title)
-                .description(description)
-                .build();
-    }
+
 }
 

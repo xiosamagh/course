@@ -1,9 +1,9 @@
-package com.campus.course.course.routes;
+package com.campus.course.lesson.routes;
 
 import com.campus.course.base.routes.BaseRoutes;
 
-public class CourseRoutes {
-    private final  static String ROOT = BaseRoutes.API + "/course";
+public class LessonRoutes {
+    private final  static String ROOT = BaseRoutes.API + "/lesson";
 
 
     public final static String CREATE = ROOT;
@@ -13,5 +13,4 @@ public class CourseRoutes {
     public final static String SEARCH = ROOT;
 
     public final static String EDIT = BY_ID;
-
 }

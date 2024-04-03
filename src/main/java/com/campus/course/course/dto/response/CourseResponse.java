@@ -1,7 +1,6 @@
-package com.campus.course.course.dto;
+package com.campus.course.course.dto.response;
 
 import com.campus.course.course.entity.CourseEntity;
-import lombok.Builder;
 import lombok.Getter;
 import lombok.experimental.SuperBuilder;
 
